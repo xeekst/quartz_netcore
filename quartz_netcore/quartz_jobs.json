@@ -1,0 +1,12 @@
+{
+  "QuartzJob": {
+    "TestJob": {
+      "JobClassFullName": "quartz_netcore.Jobs.PrintJob",
+      "JobName": "job1",
+      "Group": "jobg1",
+      "CronString": "*/5 * * * * ?",
+      "TriggerName": "trigger1",
+      "IsRun": true
+    }
+  }
+}
